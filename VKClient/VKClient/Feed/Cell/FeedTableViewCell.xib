@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="799" id="KGk-i7-Jjw" customClass="FeedTableViewCell" customModule="VKClient" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="368" height="668"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="368" height="668"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7s2-MZ-EGQ">
+                        <rect key="frame" x="20" y="10" width="128" height="128"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="22" translatesAutoresizingMaskIntoConstraints="NO" id="Xuv-CI-sgG">
+                                <rect key="frame" x="-20" y="0.0" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="8Up-GA-Kwj"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="128" id="Fnu-aG-ZgC"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="Jzc-Js-Dc1"/>
+                                    <constraint firstAttribute="height" constant="128" id="UcT-dG-VIT"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="128" id="Vel-og-eH3"/>
+                            <constraint firstAttribute="width" constant="128" id="nnu-dP-HSL"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="«Биткоин на распутье». Почему цена криптовалюты может упасть до $20 тыс." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2b-D4-TOR">
+                        <rect key="frame" x="164" y="17" width="184" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="6wY-lD-eMY"/>
+                            <constraint firstAttribute="width" constant="184" id="j1v-yL-i24"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="04.06.2021, 14:41" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Al7-OF-dwg">
+                        <rect key="frame" x="164" y="105" width="184" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="184" id="8ce-V6-pUh"/>
+                            <constraint firstAttribute="height" constant="30" id="SlE-x8-1s3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" systemColor="systemGrayColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9Q-dm-iTu">
+                        <rect key="frame" x="27" y="156" width="321" height="122"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="321" id="eeb-uT-Xyg"/>
+                            <constraint firstAttribute="height" constant="122" id="sNR-su-5bq"/>
+                        </constraints>
+                        <string key="text">В пятницу утром цифровая монета вновь не смогла преодолеть уровень в $40 тыс., что вызвало новые опасения по поводу продолжения коррекции курса. Что происходит на рынке и в каком случае снижение усилится?</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="21" translatesAutoresizingMaskIntoConstraints="NO" id="CUk-ZG-br7">
+                        <rect key="frame" x="20" y="286" width="328" height="306"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="306" id="GeJ-v1-64i"/>
+                            <constraint firstAttribute="width" constant="328" id="rNV-fi-EaR"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Clj-LD-oWA">
+                        <rect key="frame" x="20" y="602" width="328" height="25"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ym0-x7-vAs" customClass="LikeButton" customModule="VKClient" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="106" height="25"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="ehJ-NP-rgF"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="likesCount">
+                                        <integer key="value" value="777"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BxO-fT-tuv" userLabel="Comment Button" customClass="LikeButton" customModule="VKClient" customModuleProvider="target">
+                                <rect key="frame" x="122" y="0.0" width="106" height="25"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="poP-W6-G3m"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="likesCount">
+                                        <integer key="value" value="99"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYk-j7-QBl" userLabel="Repost Button" customClass="LikeButton" customModule="VKClient" customModuleProvider="target">
+                                <rect key="frame" x="244" y="0.0" width="84" height="25"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="likesCount">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="tYk-j7-QBl" firstAttribute="height" secondItem="Ym0-x7-vAs" secondAttribute="height" id="Lzo-K8-tDv"/>
+                            <constraint firstAttribute="bottom" secondItem="tYk-j7-QBl" secondAttribute="bottom" id="aHh-PX-RJa"/>
+                            <constraint firstAttribute="height" constant="25" id="bNY-AK-POk"/>
+                            <constraint firstAttribute="width" constant="328" id="ycm-uI-9Ep"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Al7-OF-dwg" firstAttribute="top" secondItem="u2b-D4-TOR" secondAttribute="bottom" constant="8" symbolic="YES" id="1Vw-00-PSW"/>
+                    <constraint firstItem="7s2-MZ-EGQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="1yY-9r-lef"/>
+                    <constraint firstAttribute="trailing" secondItem="CUk-ZG-br7" secondAttribute="trailing" constant="20" symbolic="YES" id="3z6-Gu-JD4"/>
+                    <constraint firstItem="CUk-ZG-br7" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="46v-Pd-nR5"/>
+                    <constraint firstAttribute="trailing" secondItem="Al7-OF-dwg" secondAttribute="trailing" constant="20" id="5HG-rp-Ryi"/>
+                    <constraint firstItem="u2b-D4-TOR" firstAttribute="leading" secondItem="Xuv-CI-sgG" secondAttribute="trailing" constant="36" id="7Px-uI-Ide"/>
+                    <constraint firstItem="Xuv-CI-sgG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" symbolic="YES" id="7nf-Gg-7IR"/>
+                    <constraint firstItem="Al7-OF-dwg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="164" id="AaL-nG-CYv"/>
+                    <constraint firstItem="Al7-OF-dwg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="105" id="Au9-gA-ww7"/>
+                    <constraint firstItem="7s2-MZ-EGQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="Gtx-mI-j4i"/>
+                    <constraint firstAttribute="bottom" secondItem="Clj-LD-oWA" secondAttribute="bottom" constant="41" id="Gxa-mx-BxI"/>
+                    <constraint firstItem="Clj-LD-oWA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="J5C-Qs-81o"/>
+                    <constraint firstItem="CUk-ZG-br7" firstAttribute="top" secondItem="v9Q-dm-iTu" secondAttribute="bottom" constant="8" id="NOH-8k-NTL"/>
+                    <constraint firstItem="CUk-ZG-br7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="Ppg-FG-QFo"/>
+                    <constraint firstAttribute="trailing" secondItem="v9Q-dm-iTu" secondAttribute="trailing" constant="20" id="Qyb-CW-x7i"/>
+                    <constraint firstAttribute="trailing" secondItem="Clj-LD-oWA" secondAttribute="trailing" constant="20" id="WPe-ZQ-6kr"/>
+                    <constraint firstAttribute="bottom" secondItem="tYk-j7-QBl" secondAttribute="bottom" constant="41" id="c6i-f2-GHc"/>
+                    <constraint firstItem="v9Q-dm-iTu" firstAttribute="top" secondItem="7s2-MZ-EGQ" secondAttribute="bottom" constant="18" id="cut-Vp-HW4"/>
+                    <constraint firstItem="Xuv-CI-sgG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="dyv-uS-Mud"/>
+                    <constraint firstItem="v9Q-dm-iTu" firstAttribute="top" secondItem="Al7-OF-dwg" secondAttribute="bottom" constant="21" id="fEs-kt-O1G"/>
+                    <constraint firstAttribute="trailing" secondItem="u2b-D4-TOR" secondAttribute="trailing" constant="20" symbolic="YES" id="fJ3-5Q-TKM"/>
+                    <constraint firstItem="v9Q-dm-iTu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="27" id="jxF-on-Jdt"/>
+                    <constraint firstItem="u2b-D4-TOR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="kfi-6e-HdH"/>
+                    <constraint firstItem="CUk-ZG-br7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="l3O-Y4-1Zl"/>
+                    <constraint firstItem="Clj-LD-oWA" firstAttribute="top" secondItem="CUk-ZG-br7" secondAttribute="bottom" constant="10" id="l4N-Ae-jfI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="authorLabel" destination="u2b-D4-TOR" id="hog-6b-yPR"/>
+                <outlet property="bigPostImageView" destination="CUk-ZG-br7" id="ZWQ-hO-8E8"/>
+                <outlet property="commentButton" destination="BxO-fT-tuv" id="pyJ-IV-BKd"/>
+                <outlet property="likeButton" destination="Ym0-x7-vAs" id="FLC-ou-drX"/>
+                <outlet property="postImageView" destination="Xuv-CI-sgG" id="9ss-Ie-6jZ"/>
+                <outlet property="postLabel" destination="v9Q-dm-iTu" id="apS-Yu-hzC"/>
+                <outlet property="repostButton" destination="tYk-j7-QBl" id="YIt-nV-Ddd"/>
+                <outlet property="timeLabel" destination="Al7-OF-dwg" id="BWf-uD-VEO"/>
+            </connections>
+            <point key="canvasLocation" x="-30" y="-100"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="21" width="864" height="741"/>
+        <image name="22" width="225" height="225"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
